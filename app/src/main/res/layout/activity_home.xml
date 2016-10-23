@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_add_mian"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="添加好友"/>
+
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_below="@id/btn_add_mian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</RelativeLayout>
